@@ -77,7 +77,7 @@ def find_window_and_make_best_window_unique(
         FlexiblePartialOwnName(
             _restore_window_name,
             f"{hwnd} / {repr(startwindowtext)} / {repr(updatedwindowtext)}",
-            True,
+            True, hwnd, startwindowtext, updatedwindowtext
         ),
     )
 
